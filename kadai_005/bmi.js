@@ -1,11 +1,11 @@
 //体重
-const weight = 68;
+let weight = 68;
 
 //身長
-const height = 1.7;
+let height = 1.7;
 
-//MBI
-const MBI = weight / (height * height);
+//BMI
+const BMI = weight / (height * height);
 
-//MBI出力
-console.log(MBI);
+//BMI出力
+console.log(BMI);
